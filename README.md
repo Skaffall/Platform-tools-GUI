@@ -1,25 +1,30 @@
 # ADB & Fastboot GUI Toolbox
 
-Кроссплатформенная графическая оболочка (GUI) для Android Platform-Tools (Linux / Windows).
+Cross-platform graphical user interface (GUI) for Android Platform-Tools (Linux / Windows).
 
-## Возможности
-- Полная кроссплатформенность (Windows, Ubuntu, Debian, Arch, Fedora и др.).
-- Автопоиск `adb` и `fastboot` в `PATH` или выбор локальной папки.
-- **Управление перезагрузкой**: System, Recovery, Bootloader/Fastboot, Fastbootd, EDL, Sideload.
-- **Быстрый сервис**:
-  - Установка APK в один клик.
-  - Sideload прошивок (.zip).
-  - Создание скриншота устройства напрямую на ПК.
-  - Push / Pull файлов.
-- **Fastboot менеджер**:
-  - Разблокировка и блокировка загрузчика (`flashing unlock`, `oem unlock`).
-  - Прошивка разделов (`boot`, `recovery`, `system`, `vendor`, `vbmeta`, `userdata`).
-  - Разовая загрузка образа (`fastboot boot image.img`).
-- **Инфо-панель**: просмотр параметров экрана, батареи, характеристик устройства.
-- **Интерактивный лог / кастомная консоль**: выполнение любых произвольных команд.
+## Features
 
-## Установка и запуск
+* Full cross-platform compatibility (Windows, Ubuntu, Debian, Arch, Fedora, etc.).
+* Automatic search for `adb` and `fastboot` in `PATH` or selection of a local folder.
+* **Reboot Management**: System, Recovery, Bootloader/Fastboot, Fastbootd, EDL, Sideload.
+* **Quick Service**:
+* One-click APK installation.
+* Firmware sideloading (`.zip`).
+* Direct device screenshot capture to PC.
+* File Push / Pull.
 
-### 1. Установка зависимостей
-Убедитесь, что установлен Python 3.8+:
 
+* **Fastboot Manager**:
+* Bootloader unlocking and locking (`flashing unlock`, `oem unlock`).
+* Partition flashing (`boot`, `recovery`, `system`, `vendor`, `vbmeta`, `userdata`).
+* One-time image booting (`fastboot boot image.img`).
+
+
+* **Info Panel**: View screen parameters, battery status, and device specifications.
+* **Interactive Log / Custom Console**: Execute any custom commands.
+
+## Installation and Running
+
+### 1. Install Dependencies
+
+Ensure Python 3.8+ is installed:
