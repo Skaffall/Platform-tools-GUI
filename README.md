@@ -28,3 +28,4 @@ Cross-platform graphical user interface (GUI) for Android Platform-Tools (Linux 
 ### 1. Install Dependencies
 
 Ensure Python 3.8+ is installed:
+<img width="1920" height="1080" alt="file" src="https://github.com/user-attachments/assets/a50027f6-9db5-4784-8036-c84877701cc2" />
